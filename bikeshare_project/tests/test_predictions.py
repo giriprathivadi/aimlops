@@ -13,6 +13,7 @@ from bikeshare_model.predict import make_prediction
 
 def test_make_prediction(sample_input_data):
     # Given
+    # TDD style of tests
     expected_num_of_predictions = 3476
 
     # When
